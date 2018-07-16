@@ -1,0 +1,43 @@
+a:link{
+    background-color: white;
+   
+	background-image: url("lll.gif");
+
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 500px;
+    text-decoration: none;
+    display: inline-block;
+}
+body{
+	background-image: url("cat_twitter.png");
+
+}
+#p{
+
+	margin-top: -500px;
+    margin-left: 600px;
+    margin-right: 200px;
+    height: 500px;
+
+width: 600px;
+    font-size: 2em;
+
+}
+#po{
+
+
+background-color: red;
+}
+img{
+	border-top-width: 10px;
+    border-top-style: solid;
+    border-right-width: 10px;
+    border-right-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-style: solid;
+    border-left-width: 10px;
+    border-left-style: solid;
+
+}
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+<script>
+function changeBackgroundcolor(){
+	if (document.body.style .backgroundColor=="") {
+    	document.body.style .backgroundColor="red";
+	} else if (document.body.style .backgroundColor=="red") {
+    	document.body.style .backgroundColor="blue";
+	} else if (document.body.style .backgroundColor=="blue") {
+    	document.body.style .backgroundColor="green";
+    } else if (document.body.style .backgroundColor=="green") {
+    	document.body.style .backgroundColor="pink";
+        }
+
+}
+
+
+
+
+</script></head>
+<!-- in html example -->
+
+<body style="background-color: pink;">
+
+<h2>Javascript Example</h2>
+
+<button>Turn on the light</button>
+
+<img id="myImage" src="tryit_view_data/pic_bulboff.gif" style="width:100px">
+
+<!-- inline example -->
+<button>Turn off the light</button>
+
+<p id="timesOnLabel">Times On: 0</p>
+
+<button onclick="changeBackgroundcolor()">ChangeBackgroundColor</button>
+
+
+
+</body></html>

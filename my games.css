@@ -1,0 +1,16 @@
+body{
+	background-image: url("h.gif");
+
+}
+a:link{
+    
+   
+    background-image: url("cat_twitter.png");
+
+    padding: 10px 20px;
+    text-align: center;
+    margin-left: 500px;
+    text-decoration: none;
+    display: inline-block;
+}
+
